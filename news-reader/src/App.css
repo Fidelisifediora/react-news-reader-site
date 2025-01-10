@@ -1,0 +1,55 @@
+/* App.css */
+.App {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .App.dark {
+    background-color: #121212;
+    color: white;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .news-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .news-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .news-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .toggle-container {
+    display: flex;
+    align-items: center;
+  }
+  

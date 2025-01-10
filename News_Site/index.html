@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Site</title>
+    <link rel="stylesheet" href="index.css"  type="text/css">
+</head>
+<body>
+    <header>
+        <nav class="container" id="url">
+            <h2 class="logo">News Site</h2>
+            <a href="#" data-category="general" class="active">General</a>
+            <a href="#" data-category="sports">Sports</a>
+            <a href="#" data-category="Entertaiment">Entertaiment</a>
+            <a href="#" data-category="world">World</a>
+            <button id="toggle">Light/Dark mode</button>
+
+        </nav>
+        <form  id="form">
+        <input type="search" name="search" id="input-search" placeholder="Search here..." required>
+        <button id="submit-btn" type="submit">Submit</button>
+        </form>
+    </header>
+    <main>
+        <div id="news-container"></div>
+    </main>
+
+
+   <script src="script.js"></script> 
+</body>
+</html>
