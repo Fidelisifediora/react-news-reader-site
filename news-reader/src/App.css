@@ -4,7 +4,9 @@
     background-color: white;
     color: black;
     padding: 20px;
+    height:400vh;
     text-align: center;
+
   }
   
   .App.dark {
@@ -37,7 +39,7 @@
   }
   
   .news-item {
-    background-color: #f4f4f4;
+    background-color: none;
     padding: 20px;
     border-radius: 8px;
   }
