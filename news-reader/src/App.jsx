@@ -20,7 +20,7 @@ function App() {
         return;
       }
       const API_KEY = '1a3443308e9a49a38acc61a1d0f9f771'; // Replace with your NewsAPI key
-      const url = `https://newsapi.org/v2/top-headlines?category=${category}&q=${searchQuery}&apiKey=${API_KEY}`;
+      const url = `https://newsapi.org/v2/everything?domains=wsj.com&apiKey=1a3443308e9a49a38acc61a1d0f9f771`;
       try {
         const response = await axios.get(url);
         setArticles(response.data.articles);
